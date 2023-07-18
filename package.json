@@ -35,5 +35,22 @@
     "sass-loader": "^13.0.2",
     "unocss": "^0.50.7",
     "vite": "^4.2.1"
-  }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add ."
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
