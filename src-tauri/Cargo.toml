@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "后期工资计算器"
 authors = ["Kerinlin"]
 license = "MIT"
-edition = "2023"
+edition = "2021"
 rust-version = "1.68.2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
