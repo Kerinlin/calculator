@@ -41,8 +41,8 @@
     },
     "windows": [
       {
-        "width": 800,
-        "height": 600,
+        "width": 666,
+        "height": 370,
         "resizable": true,
         "fullscreen": false,
         "decorations": false
