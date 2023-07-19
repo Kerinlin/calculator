@@ -11,6 +11,9 @@ dependencies:
   '@vueuse/core':
     specifier: ^9.13.0
     version: registry.npmmirror.com/@vueuse/core@9.13.0(vue@3.2.47)
+  '@vueuse/math':
+    specifier: ^10.2.1
+    version: registry.npmmirror.com/@vueuse/math@10.2.1(vue@3.2.47)
   vue:
     specifier: ^3.2.47
     version: registry.npmmirror.com/vue@3.2.47
@@ -44,7 +47,7 @@ devDependencies:
     specifier: ^9.1.1
     version: registry.npmmirror.com/eslint-plugin-vue@9.1.1(eslint@8.38.0)
   husky:
-    specifier: ^8.0.1
+    specifier: ^8.0.0
     version: registry.npmmirror.com/husky@8.0.1
   lint-staged:
     specifier: ^13.0.3
@@ -1308,10 +1311,35 @@ packages:
       - vue
     dev: false
 
+  registry.npmmirror.com/@vueuse/math@10.2.1(vue@3.2.47):
+    resolution: {integrity: sha512-5mOoPhezfgcRhBT0E2FXPEjCbrLWG9hjhGlg574yWYmwhcLKLtN993CsL3AucD8ULCmWZJJ/J03K4fLyPyaEzw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/math/-/math-10.2.1.tgz}
+    id: registry.npmmirror.com/@vueuse/math/10.2.1
+    name: '@vueuse/math'
+    version: 10.2.1
+    dependencies:
+      '@vueuse/shared': registry.npmmirror.com/@vueuse/shared@10.2.1(vue@3.2.47)
+      vue-demi: registry.npmmirror.com/vue-demi@0.14.5(vue@3.2.47)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
   registry.npmmirror.com/@vueuse/metadata@9.13.0:
     resolution: {integrity: sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.13.0.tgz}
     name: '@vueuse/metadata'
     version: 9.13.0
+    dev: false
+
+  registry.npmmirror.com/@vueuse/shared@10.2.1(vue@3.2.47):
+    resolution: {integrity: sha512-QWHq2bSuGptkcxx4f4M/fBYC3Y8d3M2UYyLsyzoPgEoVzJURQ0oJeWXu79OiLlBb8gTKkqe4mO85T/sf39mmiw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/shared/-/shared-10.2.1.tgz}
+    id: registry.npmmirror.com/@vueuse/shared/10.2.1
+    name: '@vueuse/shared'
+    version: 10.2.1
+    dependencies:
+      vue-demi: registry.npmmirror.com/vue-demi@0.14.5(vue@3.2.47)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
     dev: false
 
   registry.npmmirror.com/@vueuse/shared@9.13.0(vue@3.2.47):
